@@ -10,7 +10,7 @@ import org.jfree.ui.*;
 public class HistogramDisplay extends ApplicationFrame {
     private final Histogram<String> histogram;
 
-    //public HistogramDisplay(String title) {
+    
     public HistogramDisplay(Histogram<String> histogram, String title) {
         super(title);
         this.histogram = histogram;
